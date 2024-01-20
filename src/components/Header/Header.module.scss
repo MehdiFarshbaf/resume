@@ -1,0 +1,39 @@
+
+.logo {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+
+  span {
+    color: crimson;
+  }
+}
+
+.header {
+  background-color: #030303;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 65px;
+
+  ul {
+    display: flex;
+
+    li {
+      margin-left: 15px;
+      color: #fff;
+      cursor: pointer;
+      font-weight: 500;
+      font-size: 18px;
+      transition: all 0.3s ease-in;
+    }
+
+    li:hover {
+      color: crimson;
+    }
+
+    li:first-child {
+      margin-left: 0;
+    }
+  }
+}
