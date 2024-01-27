@@ -1,0 +1,38 @@
+.banner {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/images/banner.jpg");
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-position: center;
+  background-color: #030303;
+}
+
+.container {
+  color: #fff;
+  min-height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+.hello {
+  font-size: 27px;
+}
+
+.name {
+  font-size: 75px;
+  font-weight: 600;
+
+}
+
+.job {
+  font-size: 40px;
+  margin: 5px 0 45px 0
+}
+
+.button {
+}

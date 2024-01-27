@@ -2,7 +2,8 @@ import styles from './Header.module.scss'
 
 const Header = () => {
     return (
-        <header className={styles.header}>
+        <header className={`inside ${styles.header}`}>
+            {/*<div className="inside">*/}
             <div className={styles.logo}>
                 <p>Portfo<span>lio</span></p>
             </div>
@@ -18,6 +19,7 @@ const Header = () => {
                     </ul>
                 </nav>
             </div>
+            {/*</div>*/}
 
         </header>
     )

@@ -10,10 +10,67 @@ body {
   font-size: 16px;
 }
 
+section {
+  padding: 100px 0;
+  position: relative;
+}
+
 a {
   text-decoration: none;
 }
 
 li {
   list-style-type: none;
+}
+
+.button {
+  background-color: var(--red);
+  color: var(--white);
+  padding: 12px 36px;
+  outline: none;
+  font-size: 25px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 2px solid var(--red);
+  transition: all 0.3s ease-in;
+}
+
+.button:hover {
+  color: var(--red);
+  background: transparent;
+}
+
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  //background-color: var(--black);
+}
+
+.inside {
+  width: 83.34%;
+  max-width: 1200px;
+}
+
+@media screen and (max-width: 1040px) {
+  .inside {
+    width: 95% !important;
+    padding: 0 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .inside {
+    width: 100% !important;
+    padding: 0 8px;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  .inside {
+    width: 100% !important;
+    padding: 0 8px;
+  }
 }
