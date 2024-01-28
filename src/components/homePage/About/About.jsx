@@ -8,7 +8,7 @@ const About = () => {
             </div>
             <div className={styles.content}>
                 <div className={styles.imgContainer}>
-                    <img src={require("../../assets/images/profile-1.jpeg")} alt=""/>
+                    <img src={require("../../../assets/images/profile-1.jpeg")} alt=""/>
                 </div>
                 <div className={styles.description}>
                     <h4>I'm Mehdi and I'm a <span>Programmer</span></h4>

@@ -1,7 +1,7 @@
 import styles from './Skills.module.scss'
 import {FaArrowRight} from "react-icons/fa";
-import {skillsList} from "../../helper/data";
-import Chart from "../Chart/Chart";
+import {skillsList} from "../../../helper/data";
+import Chart from "../../Chart/Chart";
 
 const Skills = () => {
     return (

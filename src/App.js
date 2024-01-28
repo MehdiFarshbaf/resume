@@ -1,8 +1,9 @@
 import Header from "./components/Header/Header";
-import Banner from "./components/Banner/Banner";
-import About from "./components/About/About";
-import Service from "./components/Services";
-import Skills from "./components/Skills/Skills";
+import Banner from "./components/homePage/Banner/Banner";
+import About from "./components/homePage/About/About";
+import Service from "./components/homePage/Services";
+import Skills from "./components/homePage/Skills/Skills";
+import MyTeams from "./components/homePage/MyTeams/MyTeams";
 
 const App = () => {
     return (
@@ -12,6 +13,7 @@ const App = () => {
             <About/>
             <Service/>
             <Skills/>
+            <MyTeams/>
         </div>
     )
 }

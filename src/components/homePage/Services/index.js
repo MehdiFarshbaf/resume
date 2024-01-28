@@ -1,6 +1,6 @@
 import styles from './Services.module.scss'
 import {listServices} from "./listservices";
-import Card from "../Card/Card";
+import Card from "../../Cards/ServiceCard/Card";
 
 const Service = () => {
     return (

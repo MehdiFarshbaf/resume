@@ -1,0 +1,50 @@
+.myTeams {
+  width: 100%;
+  color: var(--white);
+  background: var(--black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  h2 {
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+  }
+
+  h2::before {
+    content: '';
+    width: 161px;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--white);
+  }
+
+  h2::after {
+    content: 'who with me';
+    padding: 5px;
+    background: var(--black);
+    position: absolute;
+    font-size: 20px;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--red);
+  }
+}
+
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 50px;
+  column-gap: 50px;
+}
