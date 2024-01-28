@@ -1,0 +1,64 @@
+.skills {
+}
+
+.title {
+  //position: relative;
+
+  h2 {
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+  }
+
+  h2::before {
+    content: '';
+    width: 161px;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--black);
+  }
+
+  h2::after {
+    content: 'what I know';
+    padding: 5px;
+    background: var(--white);
+    position: absolute;
+    font-size: 20px;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--red);
+  }
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.description {
+  width: 48%;
+
+  p:nth-child(1) {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  p:nth-child(2){
+    text-align: justify;
+    margin-bottom: 30px;
+  }
+}
+
+
+.chart {
+  width: 48%;
+}
