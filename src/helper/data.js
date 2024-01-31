@@ -3,6 +3,8 @@ import profile2 from '../assets/images/profile-3.jpeg'
 import profile3 from '../assets/images/profile-4.jpeg'
 import profile4 from '../assets/images/profile-5.jpeg'
 
+import {FaUser} from "react-icons/fa";
+
 export const teamList = [
     {
         id: 0,
@@ -49,4 +51,23 @@ export const skillsList = [
         title: 'MySQL',
         percent: 70
     },
+]
+
+export const contactInfoList = [
+    {
+        id: 0,
+        label: 'Name',
+        description: 'Mehdi Farshbaf',
+        icon: <FaUser/>
+    }, {
+        id: 1,
+        label: 'location',
+        description: 'Iran, Tehran',
+        icon: <FaUser/>
+    }, {
+        id: 2,
+        label: 'Email',
+        description: 'mehdifarshbaf92@mail.com',
+        icon: <FaUser/>
+    }
 ]

@@ -1,0 +1,27 @@
+.contactInfo {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 65px;
+}
+
+.icon {
+  font-size: 25px;
+
+  svg {
+    color: var(--red)
+  }
+}
+
+.label {
+}
+
+.description {
+  //color: #2222
+}
+
+.info {
+  margin-left: 30px;
+  font-weight: 300;
+}
