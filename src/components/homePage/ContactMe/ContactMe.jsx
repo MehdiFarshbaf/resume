@@ -10,7 +10,7 @@ const ContactMe = () => {
             </div>
             <div className={styles.container}>
                 <div className='w-100'>
-                    <h4 className={styles.title}>Get in Touch</h4>
+                    <h2 className='sub-title'>Get in Touch</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur dignissimos eveniet
                         facere in inventore iure iusto laudantium molestiae qui!</p>
                     <div className={styles.infoList}>
@@ -18,7 +18,7 @@ const ContactMe = () => {
                     </div>
                 </div>
                 <div className='w-100'>
-                    <h2 className={styles.title}>Message Me</h2>
+                    <h2 className='sub-title'>Message Me</h2>
                     <form action="#" className="">
                         <div className={styles.fields}>
                             <input className={styles.field} type="text" placeholder="name"/>

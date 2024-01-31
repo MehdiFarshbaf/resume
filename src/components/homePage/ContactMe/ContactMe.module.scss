@@ -71,6 +71,9 @@
   }
   p {
     text-align: justify;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
   }
 }
 
@@ -84,17 +87,4 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
-}
-
-.field {
-
-}
-
-.title {
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
-.textarea {
 }

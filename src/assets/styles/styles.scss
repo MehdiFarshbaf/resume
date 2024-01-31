@@ -59,16 +59,22 @@ li {
 }
 
 .appContainer {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  //background-color: var(--black);
 }
 
 .inside {
   width: 83.34%;
   max-width: 1200px;
+}
+
+.sub-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
 @media screen and (max-width: 1040px) {
@@ -90,5 +96,9 @@ li {
   .inside {
     width: 100% !important;
     padding: 0 8px;
+    overflow-x: hidden;
+  }
+  .button {
+    width: 100%;
   }
 }
