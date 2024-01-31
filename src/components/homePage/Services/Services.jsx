@@ -1,6 +1,6 @@
 import styles from './Services.module.scss'
-import {listServices} from "./listservices";
-import Card from "../../Cards/ServiceCard/Card";
+import ServiceCard from "../../Cards/ServiceCard/ServiceCard";
+import {listServices} from "../../../helper/data";
 
 const Service = () => {
     return (
@@ -9,9 +9,9 @@ const Service = () => {
                 <div className={styles.title}>
                     <h2>My Services</h2>
                 </div>
-                <div className={styles.content}>
+                <div className={styles.container}>
                     {listServices.map(service => (
-                        <Card service={service}/>
+                        <ServiceCard service={service}/>
                     ))}
                 </div>
             </div>

@@ -3,7 +3,7 @@ import profile2 from '../assets/images/profile-3.jpeg'
 import profile3 from '../assets/images/profile-4.jpeg'
 import profile4 from '../assets/images/profile-5.jpeg'
 
-import {FaUser} from "react-icons/fa";
+import {FaCode, FaPaintBrush, FaUser} from "react-icons/fa";
 
 export const teamList = [
     {
@@ -69,5 +69,25 @@ export const contactInfoList = [
         label: 'Email',
         description: 'mehdifarshbaf92@mail.com',
         icon: <FaUser/>
+    }
+]
+export const listServices = [
+    {
+        id: 0,
+        title: 'Web Design',
+        description:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, odio?',
+        icon: <FaPaintBrush className='icon' />
+    },
+    {
+        id: 1,
+        title: 'Advertising',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, odio?',
+        icon: <FaCode className='icon'/>
+    },
+    {
+        id: 2,
+        title: 'Apps Design',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, odio?',
+        icon: <FaCode className='icon'/>
     }
 ]

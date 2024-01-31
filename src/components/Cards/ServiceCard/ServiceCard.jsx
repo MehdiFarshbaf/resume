@@ -1,6 +1,6 @@
-import styles from './Card.module.scss'
+import styles from './ServiceCard.module.scss'
 
-const Card = ({service}) => {
+const ServiceCard = ({service}) => {
     return (
         <div key={service.id} className={styles.card}>
             <div className={styles.container}>
@@ -11,4 +11,4 @@ const Card = ({service}) => {
         </div>
     )
 }
-export default Card
+export default ServiceCard
